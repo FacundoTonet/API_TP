@@ -1,12 +1,10 @@
-import { createBrowserRouter } from "react-router-dom";
-import Layout from "./components/Layout";
-import Home from "./pages/Home";
+import { createBrowserRouter } from "react-router-dom"
+import Layout from "./components/Layout"
+import Home from "./pages/Home"
 import Characters from "./components/Characters"
-
 
 export const router = createBrowserRouter([
     {
-
         path: "/",
         element: <Layout />,
         children: [
@@ -29,6 +27,6 @@ export const router = createBrowserRouter([
             }
         ]
     }
-
-])
-
+], {
+    basename: "/API_TP" 
+})
