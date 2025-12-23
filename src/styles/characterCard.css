@@ -1,0 +1,39 @@
+.card {
+  background: #1e1e2f;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,.3);
+  transition: transform .3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card-body {
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.card-body h3 {
+  margin: .5rem 0;
+}
+
+.status {
+  display: inline-block;
+  padding: .3rem .8rem;
+  border-radius: 20px;
+  font-size: .8rem;
+}
+
+.status.alive { background: #2ecc71; }
+.status.dead { background: #e74c3c; }
+.status.unknown { background: #f1c40f; }
+
+

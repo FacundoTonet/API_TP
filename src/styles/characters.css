@@ -1,0 +1,67 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.pagination button {
+  background: #6c5ce7;
+  border: none;
+  padding: .6rem 1.2rem;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background: #5a4bdc;
+}
+
+:root {
+  --bg-main: #0b0f14;
+  --bg-card: #1b2430;
+  --green-portal: #00ff9c;
+  --green-soft: #7dffcc;
+  --text-main: #eaeaea;
+  --text-muted: #b3b3b3;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background:
+    radial-gradient(#0f3d2e, #000 60%);
+  color: var(--text-main);
+}
+
+header {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  background: linear-gradient(135deg, #00ff9d00, #00b36b);
+  color: #0b0f14;
+  box-shadow: 0 4px 15px rgba(0,0,0,.4);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+header p {
+  margin-top: .5rem;
+  font-size: 1.1rem;
+}
+
+
+
